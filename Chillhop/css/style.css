@@ -36,7 +36,12 @@ h3 {
 }
 small{
     color: #9999;
-}
-h3, small{
     
+}
+.row::before{
+    display: table;
+    content: " ";
+}
+div{
+    display: block;
 }
