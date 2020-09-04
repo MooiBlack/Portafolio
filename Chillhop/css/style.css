@@ -1,0 +1,13 @@
+@font-face{
+    font-family: 'Metropolis';
+    src: url(../chillhop/css/webfonts/Metropolis-Black.otf);
+}
+*{
+    font-family: "Metropolis", sans-serif;
+    font-size: 30%;
+}
+.centered{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 110px;
+}
