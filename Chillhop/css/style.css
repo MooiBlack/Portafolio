@@ -13,6 +13,7 @@ a, h3{
 small, p{
     font-family: 'Metropolis-Medium', sans-serif;
     font-size: 15px;
+    color: white;
 }
 .centered{
     margin-left: 100px;
@@ -21,9 +22,22 @@ small, p{
 }
 .container{
     margin-right: 40px;
+    align-content: center;
+    max-width: fit-content;
 }
 .background{
-    background-image: url(Chillhop/images/friendsCircle.jpg);
+    background-image: url("https://raw.githubusercontent.com/MooiBlack/Portafolio/master/Chillhop/images/friendsCircle.jpg");
+    /*background-color: #cccccc;*/
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.background-black{
+    background-color: black;
+    opacity: 0.9;
+}
+.large{
+    height: 500px;
 }
 /*.display{
     display: inline-block;
@@ -34,9 +48,13 @@ small, p{
 }*/
 .flex-container{
     display: flex;
+    
+}
+.flex-grow1{
+    flex-grow: 1;
 }
 h3 {
-    color: black;
+    color: white;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 26px;
