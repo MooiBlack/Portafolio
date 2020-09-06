@@ -70,5 +70,5 @@ div{
 }
 @media (min-width: 1200px)
 .container {
-    fit-content: 1px;
+    fit-content: ;
 }
