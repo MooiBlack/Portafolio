@@ -6,11 +6,11 @@
     font-family: 'Metropolis-Medium';
     src: url(webfonts/Metropolis-Medium.otf);
 }
-a{
+a, h3{
     font-family: 'Metropolis-Black', sans-serif;
     font-size: 25px;
 }
-small{
+small, p{
     font-family: 'Metropolis-Medium', sans-serif;
     font-size: 15px;
 }
@@ -19,15 +19,24 @@ small{
     margin-right: 100px;
     margin-top: 110px;
 }
-.display{
+.container{
+    margin-right: 40px;
+}
+.background{
+    background-image: url(Chillhop/images/friendsCircle.jpg);
+}
+/*.display{
     display: inline-block;
     width: 350px;
     height: 300px;
     background-color: aquamarine;
     padding-left: 4%;
+}*/
+.flex-container{
+    display: flex;
 }
 h3 {
-    color: white;
+    color: black;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 26px;
@@ -38,10 +47,10 @@ small{
     color: #9999;
     
 }
-.row::before{
+/*.row::before{
     display: table;
     content: " ";
-}
+}*/
 div{
     display: block;
 }
