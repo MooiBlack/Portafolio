@@ -25,7 +25,7 @@ small, p{
     margin-right: 40px;
     align-content: center;
 }
-.background{
+.background-image{
     background-image: url("https://raw.githubusercontent.com/MooiBlack/Portafolio/master/Chillhop/images/friendsCircle.jpg");
     /*background-color: #cccccc;*/
     background-position: center;
@@ -37,7 +37,8 @@ small, p{
     opacity: 0.9;
 }
 .large{
-    height: 500px;
+    height: 900px;
+    margin-bottom: 300px;
 }
 /*.display{
     display: inline-block;
@@ -46,12 +47,21 @@ small, p{
     background-color: aquamarine;
     padding-left: 4%;
 }*/
-.flex-container{
+.grid{
     display: grid;
     
     grid-template-columns: fit-content(150px)
                             fit-content(700px);
     
+}
+.grid-4{
+    padding-top: 0;
+    display: grid;
+    grid-template-columns: fit-content(100px)
+                            fit-content(100px)
+                            fit-content(100px)
+                            fit-content(100px);
+                            
 }
 h3 {
     color: white;
@@ -71,6 +81,11 @@ small{
 }*/
 div{
     display: block;
+}
+.boton{
+    border-radius: 17px;
+    height: 50px;
+
 }
 @media (min-width: 1200px)
 .container {
