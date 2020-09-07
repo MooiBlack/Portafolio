@@ -18,7 +18,8 @@ small, p{
 .centered{
     margin-left: 100px;
     margin-right: 100px;
-    margin-top: 110px;
+    padding-top: 150px;
+
 }
 .container{
     margin-right: 40px;
@@ -46,7 +47,10 @@ small, p{
     padding-left: 4%;
 }*/
 .flex-container{
-    display: flex;
+    display: grid;
+    
+    grid-template-columns: fit-content(150px)
+                            fit-content(700px);
     
 }
 h3 {
@@ -70,5 +74,5 @@ div{
 }
 @media (min-width: 1200px)
 .container {
-    fit-content: ;
+    fit-content: 100px;
 }
