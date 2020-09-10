@@ -10,16 +10,27 @@ a, h3{
     font-family: 'Metropolis-Black', sans-serif;
     font-size: 25px;
 }
+i{
+    font-family: 'Metropolis-Black', sans-serif;
+    font-size: 16px;
+    color: white;
+}
+
 small, p{
     font-family: 'Metropolis-Medium', sans-serif;
     font-size: 15px;
     color: white;
 }
+label{
+    font-family: 'Metropolis-Black', sans-serif;
+    font-size: 16px;
+    color: white;
+    letter-spacing: 3px;
+}
 .centered{
     margin-left: 100px;
     margin-right: 100px;
     padding-top: 150px;
-
 }
 .container{
     margin-right: 40px;
@@ -37,7 +48,7 @@ small, p{
     opacity: 0.9;
 }
 .large{
-    height: 900px;
+    height: 850px;
     margin-bottom: 300px;
 }
 /*.display{
@@ -52,12 +63,12 @@ small, p{
     
     grid-template-columns: fit-content(150px)
                             fit-content(700px);
-    
 }
 .grid-4{
     padding-top: 0;
     display: grid;
     grid-template-columns: fit-content(100px)
+                            fit-content(100px)
                             fit-content(100px)
                             fit-content(100px)
                             fit-content(100px);
@@ -71,9 +82,12 @@ h3 {
     margin: 0;
     margin-top: 20px;
 }
-small{
+h3+small{
     color: #9999;
     
+}
+.space-img-boxes{
+    margin-bottom: 10px;
 }
 /*.row::before{
     display: table;
@@ -86,6 +100,9 @@ div{
     border-radius: 17px;
     height: 50px;
 
+}
+.down-boxes{
+    text-align: center;
 }
 @media (min-width: 1200px)
 .container {
