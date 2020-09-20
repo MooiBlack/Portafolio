@@ -71,13 +71,6 @@ b{
     background-size: cover;
     background-repeat: no-repeat;
 }
-.background-image-carruzel{
-    background-image: url("https://raw.githubusercontent.com/MooiBlack/Portafolio/master/Chillhop/images/friendsCircle.jpg");
-    /*background-color: #cccccc;*/
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
 .background-black{
     background-color: black;
     opacity: 0.9;
@@ -85,6 +78,9 @@ b{
 .large{
     height: 850px;
     margin-bottom: 0px;
+}
+.large-carrousel{
+    height: 470px;
 }
 /*.display{
     display: inline-block;
@@ -138,6 +134,9 @@ div{
 }
 .logo-image{
    -webkit-filter: grayscale(100%);
+}
+.logo-image:hover{
+   -webkit-filter: grayscale(0%);
 }
 .down-boxes{
     text-align: center;
