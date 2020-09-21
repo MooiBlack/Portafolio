@@ -6,6 +6,7 @@
     font-family: 'Metropolis-Medium';
     src: url(webfonts/Metropolis-Medium.otf);
 }
+
 header{
     float: left;
 }
@@ -41,6 +42,12 @@ small, p{
     font-family: 'Metropolis-Medium', sans-serif;
     font-size: 15px;
     color: white;
+}
+h2{
+    font-family: 'Metropolis-Black', sans-serif;
+    font-size: 26px;
+    color: white;
+    letter-spacing: 3px;
 }
 label{
     font-family: 'Metropolis-Black', sans-serif;
@@ -152,8 +159,23 @@ span>img{
     margin-right: 50px;
 
 }
+div.large-carrousel>img{
+    filter: brightness(30%);
+}
+div.large-carrousel p{
+    font-size: 18px;
+    width: 530px;
+    margin: 0 auto;
+}
+div.large-carrousel h2{
+    width: 710px;
+    margin: 0 auto;
+}
 .margin-bottom{
     margin-bottom: 50px;
+}
+.carousel-caption{
+    top: 30%;
 }
 @media (min-width: 1200px)
 .container {
